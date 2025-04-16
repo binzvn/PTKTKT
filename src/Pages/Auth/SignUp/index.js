@@ -65,7 +65,7 @@ const SignUp = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="content">
-            <p className="title my-3 mt-5">Register</p>
+            <p className="title my-3 mt-5">Đăng ký</p>
             <form onSubmit={handleSubmit}>
               <Input
                 className="input-login"
@@ -109,7 +109,7 @@ const SignUp = () => {
                 <p className="text-error mb-0">{errorMessage}</p>
               ) : null}
               <Button className="btn-login mt-5" type="submit">
-                Sign Up
+                Đăng ký
               </Button>
             </form>
             <div className="bot-action my-3">
@@ -122,12 +122,12 @@ const SignUp = () => {
                 type="checkbox"
                 id="checked"
               />
-              <label>Accept terms and condition</label>
+              <label>Chấp nhận các điều khoản</label>
             </div>
             <hr size="4" />
-            <p className="text-center">Already have an account?</p>
+            <p className="text-center">Email đã tồn tại.?</p>
             <Button className="btn-signin" onClick={handleClick}>
-              Sign In
+              Đăng nhập
             </Button>
           </div>
         </div>
@@ -135,9 +135,9 @@ const SignUp = () => {
 
       {openModalSuccess ? (
         <ModalSuccess
-          successTitle="Sign Up Success!"
-          successDesc="Please check your email and verify your account by click the link we've sent to you."
-          action="OK, I got it"
+          successTitle="Đăng ký thành công!"
+          successDesc="Vui lòng kiểm tra email và nhấn vào xác nhận tài khoản."
+          action="Vâng, tôi đã biết"
           closeModal={handleModalSuccess}
         />
       ) : null}
