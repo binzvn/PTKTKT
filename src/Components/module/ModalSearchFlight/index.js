@@ -215,7 +215,7 @@ const ModalSearchFlight = () => {
             </div>
 
             <Button className="btn-modal-search-flight title-whitesy ">
-              search flight
+              Bắt đầu tìm kiếm
               <HiIcons.HiOutlineArrowNarrowRight className="switch-icon ms-5" />
             </Button>
           </form>
