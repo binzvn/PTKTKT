@@ -69,7 +69,7 @@ const SignUp = () => {
             <form onSubmit={handleSubmit}>
               <Input
                 className="input-login"
-                placeholder="Fullname"
+                placeholder="Họ và tên"
                 type="text"
                 name="fullname"
                 onChange={handleChange}
@@ -86,7 +86,7 @@ const SignUp = () => {
               <div>
                 <Input
                   className="input-login pt-4"
-                  placeholder="Password"
+                  placeholder="Mật khẩu"
                   type={showPassword ? "text" : "password"}
                   name="password"
                   onChange={handleChange}
@@ -115,10 +115,10 @@ const SignUp = () => {
             <div className="bot-action my-3">
               <Input
                 onChange={handleChange}
-                value="Accept terms and condition"
+                value="Chấp nhận các điều khoản"
                 name="checked"
                 className="input-check me-2 mt-2"
-                checked={checked === "Accept terms and condition"}
+                checked={checked === "Chấp nhận các điều khoản"}
                 type="checkbox"
                 id="checked"
               />
