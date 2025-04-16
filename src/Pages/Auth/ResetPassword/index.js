@@ -42,7 +42,7 @@ const ResetPassword = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="content">
-            <p className="txt-forgot mt-5">Forgot Password</p>
+            <p className="txt-forgot mt-5">Quên mật khẩu</p>
             <Input
               className="input-login pt-4"
               placeholder="Email"
@@ -55,9 +55,9 @@ const ResetPassword = () => {
               <p className="text-error mb-0">{errorMessage}</p>
             ) : null}
             <Button onClick={handleClick} className="btn-login mt-5">
-              Send
+              Gửi
             </Button>
-            <p className="mt-3">You’ll get message soon on your email</p>
+            <p className="mt-3">Bạn sẽ nhận được tin nhắn trong email sớm!</p>
           </div>
         </div>
       </section>
