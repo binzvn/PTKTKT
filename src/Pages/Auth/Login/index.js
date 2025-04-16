@@ -66,7 +66,7 @@ const Login = () => {
             <div>
               <Input
                 className="input-login pt-5"
-                placeholder="Password"
+                placeholder="Mật khẩu"
                 type={showPassword ? "text" : "password"}
                 name="password"
                 onChange={handleChange}
