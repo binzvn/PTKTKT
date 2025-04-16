@@ -75,7 +75,7 @@ const Navbar = () => {
             <Input
               className="p-1 ms-1 rounded bg-light border-0"
               type="text"
-              placeholder="Where do you want to go?"
+              placeholder="Bạn muốn đi đâu đó? "
               name="search"
               onKeyUp={handleSearch}
             />
@@ -91,7 +91,7 @@ const Navbar = () => {
                   : "mt-3 mb-0 navbar-menu "
               }
             >
-              Find Ticket
+              Tìm kiếm chuyến bay
             </p>
             {pathname === "/main/search-result" ? (
               <span className="active-nav"></span>
@@ -109,7 +109,7 @@ const Navbar = () => {
                     : "mt-3 mb-0 navbar-menu "
                 }
               >
-                My Booking
+               Chuyến bay của tôi
               </p>
               {splitLocation[2] === "booking" ||
               pathname === "/main/booking-detail" ||
@@ -160,7 +160,7 @@ const Navbar = () => {
               navigate("/auth/signup");
             }}
           >
-            Sign Up
+            Đăng ký
           </Button>
         )}
         <img className="d-md-none" src={menu} alt="" height="30" />
