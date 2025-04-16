@@ -88,8 +88,8 @@ const Sidebar = () => {
       </div>
       <div className="d-flex flex-column mt-4">
         <div className="d-flex justify-content-between">
-          <p className="fw-bold">Cards</p>
-          <p className="text-primary fw-bold cursor">+ Add</p>
+          <p className="fw-bold">Thẻ</p>
+          <p className="text-primary fw-bold cursor">+ Thêm</p>
         </div>
         <div className="container p-3 border rounded bg-primary text-white shadow">
           <p className="mb-0 fw-bold">9876543210</p>
