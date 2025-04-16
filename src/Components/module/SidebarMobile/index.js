@@ -73,39 +73,39 @@ const SidebarMobile = () => {
             </div>
             <div class="d-flex flex-column mt-4">
                 <div className='d-flex justify-content-between'>
-                    <p className='fw-bold'>Cards</p>
-                    <p className='text-primary fw-bold cursor'>+ Add</p>
+                    <p className='fw-bold'>Thẻ</p>
+                    <p className='text-primary fw-bold cursor'>+ Thêm</p>
                 </div>
                 <div className='container p-3 border rounded bg-primary text-white shadow'>
-                    <p className='mb-0 fw-bold'>6816392372132</p>
+                    <p className='mb-0 fw-bold'>9876543210</p>
                     <div className='d-flex justify-content-between'>
-                        <span className=''>X card</span>
-                        <span className=''>Rp500000</span>
+                        <span className=''>Thẻ ngân hàng</span>
+                        <span className=''>999.999.999 VNĐ</span>
                     </div>
                 </div>
                 <div class="menu ms-3 mt-5">
                     <div class="">
                         <a href="" class="icon mb-4 text-dark text-decoration-none" onClick={()=>{navigate('/main/profile')}}>
                             <img className='border-primary border rounded-pill' src={user} alt="" />
-                            <span class="ms-4 text-primary fw-bold">Profile</span>
+                            <span class="ms-4 text-primary fw-bold">Thông tin</span>
                         </a>
                     </div>
                     <div class="my-4">
                         <a href="" class="icon text-dark text-decoration-none" >
                             <img src={review} alt="" />
-                            <span class="ms-4 fw-bold">My Review</span>
+                            <span class="ms-4 fw-bold">Đánh giá của tôi</span>
                         </a>
                     </div>
                     <div class="my-4">
                         <a href="" class="icon text-dark my-4 text-decoration-none">
                             <img src={settings} alt="" />
-                            <span class="ms-4 fw-bold">Settings</span>
+                            <span class="ms-4 fw-bold">Cài đặt</span>
                         </a>
                     </div>
                     <div class="my-4">
                         <a href="" class="icon text-dark text-decoration-none" onClick={handleLogout}>
                             <img src={logout} alt="" />
-                            <span class="ms-4 text-danger fw-bold">Log Out</span>
+                            <span class="ms-4 text-danger fw-bold">Thoát</span>
                         </a>
                     </div>
                 </div>
@@ -114,12 +114,11 @@ const SidebarMobile = () => {
                 <div className='modals'>
                     <div className='modal-content p-4'>
                         <div className='d-flex justify-content-between'>
-                            <h5 class="fw-bold mt-3">Change Profile Picture</h5>
+                            <h5 class="fw-bold mt-3">Thay đổi ảnh đại điện</h5>
                             <Button className='btn-close' onClick={() => openModal(false)}></Button>
                         </div>
                         <p class="fw-lighter mt-2">
-                            Choose the picture and then <br></br>
-                            press continue to the next steps.
+                            Chọn ảnh từ kho và nhấn tiếp tục.
                         </p>
                         <form encType="multipart/form-data" onSubmit={handleContinue} className="d-flex flex-column">
                             <input type="file" name="file" id="file" onChange={handleChange} />
