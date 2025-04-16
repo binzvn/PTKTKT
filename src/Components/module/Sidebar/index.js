@@ -188,9 +188,9 @@ const Sidebar = () => {
       {openModalAlert ? (
         <ModalAlert
           alertIcon={<AiIcons.AiOutlineLogout />}
-          alertTitle="Log Out Account?"
-          alertDesc="Are you sure you want to log out from Ankasa? Save all your changes before logout."
-          action="Log Out"
+          alertTitle="Thoát tài khoản?"
+          alertDesc="Bạn có chắn chắn muốn thoát tài khoản? Hãy kiểm tra và lưu tất cả trước khi thoát ra."
+          action="Thoát"
           closeModal={handleModalAlert}
           handleAction={handleLogout}
         />
