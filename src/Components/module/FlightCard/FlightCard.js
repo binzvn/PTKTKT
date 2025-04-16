@@ -6,7 +6,7 @@ const FlightCard = () => {
         <div className={`${style['card-wrapper']} d-flex`}>
             <div className="city d-flex">
                 <div className={`${style['font-24']}`}>
-                    From : Jakarta
+                    From : Vietnam
                 </div>
             </div>
         </div>
