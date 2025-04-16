@@ -51,7 +51,7 @@ const Profile = () => {
         <div className="profile d-flex mb-5 mx-5">
           <Sidebar></Sidebar>
           <div className="mt-5 ms-2 content-profile">
-            <p className="txt-blue fw-bold">Thông tin</p>
+            <p className="txt-blue fw-bold">Thông tin cá nhân</p>
             <h4 className="fw-bold txt-black">Thông tin</h4>
             <div className="form-input d-flex flex-row">
               <div className="profile-right">
