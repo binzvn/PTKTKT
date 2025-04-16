@@ -54,7 +54,7 @@ const Login = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="content">
-            <p className="title my-3 mt-5">Login</p>
+            <p className="title my-3 mt-5">Đăng Nhập</p>
             <Input
               className="input-login"
               placeholder="Email"
@@ -84,11 +84,11 @@ const Login = () => {
                 />
               )}
             </div>
-            <Button className="btn-login mt-5" onClick={handleClick}>Sign In</Button>
-            <p className="mt-3 text-center">Did you forgot your password?</p>
+            <Button className="btn-login mt-5" onClick={handleClick}>Đăng nhập</Button>
+            <p className="mt-3 text-center">Bạn quên mật khẩu?</p>
             <Link to="/auth/resetpass" className="link">Tap here for reset</Link>
             <hr size="4" />
-            <p className="text-center">or sign in with</p>
+            <p className="text-center">Hoặc đăng nhập với</p>
             <div className="d-flex flex-row">
               <img className="me-2 ps-5 ms-3" src={Google} alt="" />
               <img src={FB} alt="" />
