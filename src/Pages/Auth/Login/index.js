@@ -86,7 +86,7 @@ const Login = () => {
             </div>
             <Button className="btn-login mt-5" onClick={handleClick}>Đăng nhập</Button>
             <p className="mt-3 text-center">Bạn quên mật khẩu?</p>
-            <Link to="/auth/resetpass" className="link">Tap here for reset</Link>
+            <Link to="/auth/resetpass" className="link">Đặt lại mật khẩu</Link>
             <hr size="4" />
             <p className="text-center">Hoặc đăng nhập với</p>
             <div className="d-flex flex-row">
