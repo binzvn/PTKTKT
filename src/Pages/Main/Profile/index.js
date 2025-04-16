@@ -51,11 +51,11 @@ const Profile = () => {
         <div className="profile d-flex mb-5 mx-5">
           <Sidebar></Sidebar>
           <div className="mt-5 ms-2 content-profile">
-            <p className="txt-blue fw-bold">P R O F I L E</p>
-            <h4 className="fw-bold txt-black">Profile</h4>
+            <p className="txt-blue fw-bold">Thông tin</p>
+            <h4 className="fw-bold txt-black">Thông tin</h4>
             <div className="form-input d-flex flex-row">
               <div className="profile-right">
-                <h5 className="txt-black fw-bold mb-3">Contact</h5>
+                <h5 className="txt-black fw-bold mb-3">Liên lạc</h5>
                 <form className="ms-2">
                   <div className="mb-4 input-contact">
                     <label className="ms-1 txt-label">Email</label>
@@ -68,7 +68,7 @@ const Profile = () => {
                       placeholder={data ? data.email : "-"}
                     />
                   </div>
-                  <label className="ms-1 txt-label">Phone Number</label>
+                  <label className="ms-1 txt-label">Số điện thoại</label>
                   <Input
                     type="number"
                     className="input-profile"
@@ -86,10 +86,10 @@ const Profile = () => {
                 </div>
               </div>
               <div className="profile-left">
-                <h5 className="txt-black fw-bold mb-3">Biodata</h5>
+                <h5 className="txt-black fw-bold mb-3">Thông tin cá nhân</h5>
                 <form className="ms-2">
                   <div className="mb-4 input-contact">
-                    <label className="ms-1 txt-label">Username</label>
+                    <label className="ms-1 txt-label">Họ và tên</label>
                     <Input
                       className="input-profile"
                       name="fullname"
@@ -99,7 +99,7 @@ const Profile = () => {
                     />
                   </div>
                   <div className="mb-4 input-contact">
-                    <label className="ms-1 txt-label">City</label>
+                    <label className="ms-1 txt-label">Thành phố</label>
                     <Input
                       className="input-profile"
                       name="city"
@@ -109,7 +109,7 @@ const Profile = () => {
                     />
                   </div>
                   <div className="mb-4 input-contact">
-                    <label className="ms-1 txt-label">Address</label>
+                    <label className="ms-1 txt-label">Địa chỉ</label>
                     <Input
                       className="input-profile"
                       name="address"
@@ -119,7 +119,7 @@ const Profile = () => {
                     />
                   </div>
                   <div className="input-contact">
-                    <label className="ms-1 txt-label">Post Code</label>
+                    <label className="ms-1 txt-label">Mã số ZIP</label>
                     <Input
                       className="input-profile"
                       name="post_code"
