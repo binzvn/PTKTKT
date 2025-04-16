@@ -70,13 +70,13 @@ const ModalSearchFlight = () => {
       <div className="modal-search-flight-container animation-pull-down">
         <section className="modal-search-flight-content ">
           <div className="modal-search-flight-text">
-            <p className="modal-search-flight-hey title-blacky mb-0">Hey,</p>
+            <p className="modal-search-flight-hey title-blacky mb-0">Xin chào,</p>
             <p className="modal-search-flight-title title-blacky">
-              Where you want to go?
+              Bạn đang muốn đi đâu?
             </p>
           </div>
           <div className="modal-search-flight-recently d-flex justify-content-between">
-            <p className="recently-text title-bluesclues">Recently Searched</p>
+            <p className="recently-text title-bluesclues">Danh sách tìm kiếm gần đây</p>
             <IoIosIcons.IoIosArrowForward className="arrow-icon title-blue" />
           </div>
 
@@ -84,7 +84,7 @@ const ModalSearchFlight = () => {
             <div className="input-destination-wrapper mt-2">
               <div className="origin d-flex flex-column ms-3">
                 <label className="label-text mb-3" htmlFor="origin">
-                  From
+                  Từ
                 </label>
                 <Input
                   name="origin_city"
@@ -92,7 +92,7 @@ const ModalSearchFlight = () => {
                   onChange={handleChange}
                   className="city-input"
                   type="text"
-                  placeholder="city"
+                  placeholder="Thành phố"
                   id="origin"
                 />
               </div>
@@ -103,7 +103,7 @@ const ModalSearchFlight = () => {
 
               <div className="destinations d-flex flex-column ms-3 ">
                 <label className="label-text mb-3" htmlFor="destinations">
-                  To
+                  đến
                 </label>
                 <Input
                   name="destination_city"
@@ -111,7 +111,7 @@ const ModalSearchFlight = () => {
                   onChange={handleChange}
                   className="city-input"
                   type="text"
-                  placeholder="city"
+                  placeholder="Thành phố"
                   id="destinations"
                 />
               </div>
@@ -123,7 +123,7 @@ const ModalSearchFlight = () => {
                 <Input
                   name="journey"
                   onClick={handleJourney}
-                  value="One Way"
+                  value="Một chiều"
                   className="one-way-input title-greys"
                   type="button"
                 />
@@ -133,7 +133,7 @@ const ModalSearchFlight = () => {
                 <Input
                   name="journey"
                   onClick={handleJourney}
-                  value="Round Trip"
+                  value="Khứ hồi"
                   className="round-trip-input title-greys"
                   type="button"
                 />
@@ -142,7 +142,7 @@ const ModalSearchFlight = () => {
 
             <div className="input-departure-wrapper">
               <label className="title-young-greys mb-2" htmlFor="departure">
-                Departure
+                Ngày tháng năm sinh
               </label>
               <Input
                 name="departure_date"
@@ -156,7 +156,7 @@ const ModalSearchFlight = () => {
 
             <div className="input-passenger-wrapper">
               <label className="title-young-greys mb-2" htmlFor="passenger">
-                How many person?
+                Số lượng người đi
               </label>
               <Input
                 name="total_passenger"
@@ -170,7 +170,7 @@ const ModalSearchFlight = () => {
 
             <div className="input-flight-class-wrapper">
               <label className="title-young-greys mb-2" htmlFor="flight-class">
-                Which class do you want?
+                Chọn hạng ghế bạn mong muốn
               </label>
               <div className="d-flex justify-content-between align-items-center">
                 <Input
