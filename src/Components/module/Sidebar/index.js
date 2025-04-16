@@ -81,7 +81,7 @@ const Sidebar = () => {
           className="btn-sign bg-white border-primary border rounded-3 p-2 text-primary mt-4 fw-bolder"
           onClick={() => openModal()}
         >
-          Select Photo
+          Thay đổi ảnh
         </Button>
         <p className="mt-4 fw-bolder mb-0 fs-5">{data.data.fullname}</p>
         <span className="text-secondary">{data.data.address}</span>
@@ -92,10 +92,10 @@ const Sidebar = () => {
           <p className="text-primary fw-bold cursor">+ Add</p>
         </div>
         <div className="container p-3 border rounded bg-primary text-white shadow">
-          <p className="mb-0 fw-bold">6816392372132</p>
+          <p className="mb-0 fw-bold">9876543210</p>
           <div className="d-flex justify-content-between">
-            <span className="">X card</span>
-            <span className="">Rp500000</span>
+            <span className="">Thẻ ngân hàng</span>
+            <span className="">999.999.999 VNĐ</span>
           </div>
         </div>
         <div className="menu ms-3 mt-5">
@@ -111,19 +111,19 @@ const Sidebar = () => {
                 src={user}
                 alt=""
               />
-              <span className="ms-4 text-primary fw-bold">Profile</span>
+              <span className="ms-4 text-primary fw-bold">Thông tin</span>
             </div>
           </div>
           <div className="my-4">
             <div className="icon text-dark text-decoration-none cursor">
               <img src={review} alt="" />
-              <span className="ms-4 fw-bold">My Review</span>
+              <span className="ms-4 fw-bold">Đánh giá của tôi</span>
             </div>
           </div>
           <div className="my-4">
             <div className="icon text-dark my-4 text-decoration-none cursor">
               <img src={settings} alt="" />
-              <span className="ms-4 fw-bold">Settings</span>
+              <span className="ms-4 fw-bold">Cài đặt</span>
             </div>
           </div>
           <div className="my-4">
@@ -132,7 +132,7 @@ const Sidebar = () => {
               onClick={handleModalAlert}
             >
               <img src={logout} alt="" />
-              <span className="ms-4 text-danger fw-bold">Log Out</span>
+              <span className="ms-4 text-danger fw-bold">Thoát</span>
             </div>
           </div>
         </div>
@@ -141,15 +141,14 @@ const Sidebar = () => {
         <div className="modals">
           <div className="modal-content p-4">
             <div className="d-flex justify-content-between">
-              <h5 className="fw-bold mt-3">Change Profile Picture</h5>
+              <h5 className="fw-bold mt-3">Thay đổi ảnh đại điện</h5>
               <Button
                 className="btn-close"
                 onClick={() => openModal(false)}
               ></Button>
             </div>
             <p className="fw-lighter mt-2">
-              Choose the picture and then <br></br>
-              press continue to the next steps.
+              Chọn ảnh từ kho và nhấn tiếp tục.
             </p>
             <form
               encType="multipart/form-data"
@@ -177,7 +176,7 @@ const Sidebar = () => {
                 className="btn bg-primary text-white mt-4 p-2 border-0 mb-3 w-100"
                 type="submit"
               >
-                Continue
+                Tiếp tục
               </Button>
             </form>
           </div>
