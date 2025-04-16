@@ -50,16 +50,16 @@ const Booking = () => {
             <Navbar></Navbar>
             <main class="flex-fill bg-light d-none d-md-block">
                 <div className='wrapper p-5 d-flex bd-highlight'>
-                    <div class="p-2 bd-highlight me-auto fs-5 ms-3">Contact Person Details</div>
-                    <div class="p-2 bd-highlight fs-5 me-5">Flight Details</div>
-                    <div class="p-2 bd-highlight mx-5 mt-1">View Details</div>
+                    <div class="p-2 bd-highlight me-auto fs-5 ms-3">Thông tin liên hệ</div>
+                    <div class="p-2 bd-highlight fs-5 me-5">Thông tin chuyến bay</div>
+                    <div class="p-2 bd-highlight mx-5 mt-1">Xem chi tiết</div>
                 </div>
                 <div class="d-flex mb-5 mx-5 mt-1">
                     <div class="d-flex flex-fill flex-column">
                         <section class="container bg-white p-4 ms-2 rounded d-md-block">
                             <form>
                                 <div className="mb-4 d-flex flex-column">
-                                    <label className="ms-1 txt-label">Full Name</label>
+                                    <label className="ms-1 txt-label">Họ và tên</label>
                                     <Input
                                         className="input-booking"
                                         type="fullname"
@@ -81,7 +81,7 @@ const Booking = () => {
                                     />
                                 </div>
                                 <div className="mb-4 d-flex flex-column">
-                                    <label className="ms-1 txt-label">Phone Number</label>
+                                    <label className="ms-1 txt-label">Số điện thoại</label>
                                     <Input
                                         className="input-booking"
                                         type="phone_number"
@@ -94,21 +94,21 @@ const Booking = () => {
                             </form>
                             <div className='rounded bg-danger p-1 d-flex my-3'>
                                 <img className='mt-3 mx-3' src={danger} alt="" height='18' />
-                                <p className='mt-3 text-secondary'>Make sure the data is correct.</p>
+                                <p className='mt-3 text-secondary'>Hãy chắc chắn rằng dữ liệu chính xác.</p>
                             </div>
                         </section>
-                        <p className='fw-bold fs-4 mt-5 ms-2'>Passenger Details</p>
+                        <p className='fw-bold fs-4 mt-5 ms-2'>Chi tiết hành khách</p>
                         <section class="container bg-white p-4 ms-2 mt-2 rounded d-md-block">
                             <div className='rounded bg-blue p-1 d-flex justify-content-between my-4'>
-                                <p className='mt-3 text-secondary ms-3'>Passenger: 1 Adult</p>
+                                <p className='mt-3 text-secondary ms-3'>Hành khách: 1 Người lớn</p>
                                 <div class="form-check form-switch mt-3 me-3">
-                                    <label class="form-check-label text-secondary" for="flexSwitchCheckDefault">Same as contact person</label>
+                                    <label class="form-check-label text-secondary" for="flexSwitchCheckDefault">Giống người liên hệ</label>
                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"></input>
                                 </div>
                             </div>
                             <form className='mt-2'>
                                 <div className="mb-4 d-flex flex-column">
-                                    <label className="ms-1 txt-label mt-2">Title</label>
+                                    <label className="ms-1 txt-label mt-2">Tiêu đề</label>
                                     <Input
                                         className="input-booking"
                                         type="title"
@@ -128,7 +128,7 @@ const Booking = () => {
                                     />
                                 </div>
                                 <div className="mb-4 d-flex flex-column w-100">
-                                    <label className="ms-1 txt-label">Nationality</label>
+                                    <label className="ms-1 txt-label">Quốc tịch</label>
                                     <Input
                                         className="input-booking"
                                         type="nationality"
@@ -139,7 +139,7 @@ const Booking = () => {
                                 </div>
                             </form>
                         </section>
-                        <p className='fw-bold fs-4 mt-5 ms-2'>Passenger Details</p>
+                        <p className='fw-bold fs-4 mt-5 ms-2'>Chi tiết hành khách</p>
                         <section class="container bg-white p-4 ms-2 mt-2 rounded d-md-block">
                             <div className='d-flex justify-content-between'>
                                 <div class="form-check ms-3 mt-3">
