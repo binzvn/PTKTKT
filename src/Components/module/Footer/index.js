@@ -92,7 +92,7 @@ const Footer = () => {
           <div className="mt-5">
             <img src={pin} alt="" />
             <span className="text-secondary bd-highlight ms-2">
-              Jakarta Indonesia
+              HaNoi Vietnam
             </span>
             <p className="text-secondary bd-highlight mt-3">
               © Ankasa. All Rights Reserved.
