@@ -57,9 +57,9 @@ const Hero = () => {
           <div className="hero-section-left d-flex flex-column">
             <div className="hero-section-text-wrapper">
               <h1 className="hero-title">
-                Find Your <span className="title-blue">Flight</span>{" "}
+                Find Your <span className="title-blue">Chuyến bay</span>{" "}
               </h1>
-              <p className="hero-subtitle">and explore the world with us</p>
+              <p className="hero-subtitle">Và khám phá thế giới với chúng tôi</p>
             </div>
             <div className="hero-section-picture-one">
               <img src={heroPic1} alt="HeroPicture1" />
@@ -80,9 +80,9 @@ const Hero = () => {
           <div className="trending-text-container d-flex justify-content-between">
             <div className="trending-text-wrapper">
               <p className="trending title-blue">Trending</p>
-              <h2 className="trending-title">Trending destinations</h2>
+              <h2 className="trending-title">Điểm đến thịnh hành</h2>
             </div>
-            <p className="trending-view-all mb-0 title-blue">View all</p>
+            <p className="trending-view-all mb-0 title-blue">Xem tất cả</p>
           </div>
           <div className="trending-card-wrapper d-flex justify-content-evenly mt-5">
             {/* card start here */}
