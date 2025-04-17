@@ -125,7 +125,7 @@ const SignUp = () => {
               <label>Chấp nhận các điều khoản</label>
             </div>
             <hr size="4" />
-            <p className="text-center">Email đã tồn tại.?</p>
+            <p className="text-center">Bạn đã có tài khoản?</p>
             <Button className="btn-signin" onClick={handleClick}>
               Đăng nhập
             </Button>
