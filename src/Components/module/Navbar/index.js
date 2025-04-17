@@ -109,7 +109,7 @@ const Navbar = () => {
                     : "mt-3 mb-0 navbar-menu "
                 }
               >
-               Chuyến bay của tôi
+               Thông tin cá nhân
               </p>
               {splitLocation[2] === "booking" ||
               pathname === "/main/booking-detail" ||
