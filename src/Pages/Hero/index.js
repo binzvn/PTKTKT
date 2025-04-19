@@ -57,9 +57,9 @@ const Hero = () => {
           <div className="hero-section-left d-flex flex-column">
             <div className="hero-section-text-wrapper">
               <h1 className="hero-title">
-                Tìm Kiếm <span className="title-blue">Chuyến Bay</span>{" "}
+                Đặt Ngay <span className="title-blue">Chuyến Bay</span>{" "}
               </h1>
-              <p className="hero-subtitle">Và khám phá thế giới với chúng tôi</p>
+              <p className="hero-subtitle">Tận hưởng, trải nghiệm, khám phá thế giới với chúng tôi</p>
             </div>
             <div className="hero-section-picture-one">
               <img src={heroPic1} alt="HeroPicture1" />
