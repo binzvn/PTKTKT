@@ -170,7 +170,7 @@ const ModalSearchFlight = () => {
 
             <div className="input-flight-class-wrapper">
               <label className="title-young-greys mb-2" htmlFor="flight-class">
-                Chọn hạng ghế bạn mong muốn
+                Hạng ghế
               </label>
               <div className="d-flex justify-content-between align-items-center">
                 <Input
