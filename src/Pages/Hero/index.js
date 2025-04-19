@@ -57,7 +57,7 @@ const Hero = () => {
           <div className="hero-section-left d-flex flex-column">
             <div className="hero-section-text-wrapper">
               <h1 className="hero-title">
-                Find Your <span className="title-blue">Chuyến bay</span>{" "}
+                Tìm Kiếm <span className="title-blue">Chuyến Bay</span>{" "}
               </h1>
               <p className="hero-subtitle">Và khám phá thế giới với chúng tôi</p>
             </div>
