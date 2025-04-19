@@ -42,11 +42,11 @@ const Booking = () => {
       {/* Responsive */}
       <section class="container bg-white p-4 ms-2 mt-4 rounded d-md-none">
         <p className="fw-bold text-primary">
-          M Y <span className="ms-2">B O O K I N G</span>
+          Chuyến bay <span className="ms-2">của tôi</span>
         </p>
         <div className="d-flex justify-content-between">
-          <span className="fw-bold fs-5">My Booking</span>
-          <span className="text-primary fw-bold">Order History</span>
+          <span className="fw-bold fs-5">Chuyến bay của tôi</span>
+          <span className="text-primary fw-bold">Lịch sử đặt vé</span>
         </div>
       </section>
       {data.data.map((item) => {
