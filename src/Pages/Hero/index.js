@@ -115,7 +115,7 @@ const Hero = () => {
               <div className="destination-text-wrapper">
                 <p className="destination title-white ">top 10</p>
                 <h2 className="destination-title title-white">
-                  Top 10 destinations
+                  Top 10 điếm đến
                 </h2>
               </div>
 
