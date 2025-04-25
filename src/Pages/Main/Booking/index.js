@@ -115,7 +115,7 @@ const Booking = () => {
                 M Y <span className="ms-2">B O O K I N G</span>
               </p>
               <div className="d-flex justify-content-between">
-                <span className="fw-bold fs-5">Vé của tôi</span>
+                <span className="fw-bold fs-5">Chuyến bay của tôi</span>
                 <span className="text-primary fw-bold">Lịch sử đặt vé</span>
               </div>
             </section>
